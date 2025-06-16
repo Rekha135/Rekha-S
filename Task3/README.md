@@ -15,6 +15,6 @@
 
 - Playwright Test: for HTTP‐level API testing (modern, TypeScript-first, built-in retries & reporting).
 - TypeScript: strong typing for request/response shapes, catches errors at compile time.
-- JSON REST: we reverse-engineered Goodbudget’s private /buckets-api/household and /envelope/edit endpoints via DevTools.
+- JSON REST: reverse-engineered Goodbudget’s private /buckets-api/household and /envelope/edit endpoints via DevTools.
 - Session management: headless login script (utils/setup.ts) writes Playwright storageState, so tests run against an authenticated context without manual token handling.
 
