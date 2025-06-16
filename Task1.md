@@ -1,4 +1,4 @@
-***Task 1 – Exploratory Testing - GoodBudget Web***
+# Task 1 – Exploratory Testing - GoodBudget Web***
 
 **Charter 1: User sign-up & Login**
 - Priority: High - functionality required to access the app

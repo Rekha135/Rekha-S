@@ -1,4 +1,4 @@
-***Task2 - GoodBudget Test Automation***
+# Task2 - GoodBudget Test Automation
 
 ## Overview
 This project automates 3 key E2E flows of the GoodBudget Web App using **Playwright with TypeScript**.

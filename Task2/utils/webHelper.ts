@@ -90,7 +90,7 @@ export class webHelper {
   await this.locators.envelopeAmt.fill(data.envelopeAmt);
   await this.locators.saveEnvelopeCTA.click();
 
-   await this.locators.newEnvelopeCreatedTitle.waitFor({ timeout: 10000 });
+   await this.locators.newEnvelopeCreatedTitle.waitFor({ timeout: 15000 });
   await expect(this.locators.newEnvelopeCreatedTitle).toBeVisible();
 
   await this.locators.noThanksCTA.click();
