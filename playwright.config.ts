@@ -50,11 +50,11 @@ export default defineConfig({
 
     // API Automation
     {
-      name: 'API',
-      
+       name: 'API',
       testDir: './Task3/tests',
       use: {
-        baseURL: 'https://goodbudget.com/', // replace if needed
+        baseURL: 'https://goodbudget.com',
+        storageState: 'Task3/utils/.auth.json',
         trace: 'on-first-retry',
         screenshot: 'only-on-failure',
       },

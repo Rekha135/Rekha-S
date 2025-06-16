@@ -69,7 +69,7 @@ export class GoodbudgetClient {
 
     if (!resp.ok()) {
       const text = await resp.text();
-      console.error(`❌ ${endpoint} returned ${resp.status()}:\n`, text);
+      console.error(` ${endpoint} returned ${resp.status()}:\n`, text);
     }
     return resp;
   }
