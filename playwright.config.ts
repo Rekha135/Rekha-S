@@ -51,6 +51,7 @@ export default defineConfig({
     // API Automation
     {
       name: 'API',
+      
       testDir: './Task3/tests',
       use: {
         baseURL: 'https://goodbudget.com/', // replace if needed
