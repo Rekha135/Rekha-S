@@ -8,7 +8,7 @@ This project automates 3 key E2E flows of the GoodBudget Web App using **Playwri
 - Add, delete and fill Envelopes
 - Adding transaction and Budget Report Generation
 
-### The Setup
+### Setup
 
 - Clone the project, git clone: https://github.com/Rekha135/Rekha-S.git
 - Open the project in VS Code

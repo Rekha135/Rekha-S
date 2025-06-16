@@ -58,18 +58,18 @@ export class webHelper {
   }
 
   async addEnvelope(envelopeName: string){
-    await this.locators.envelopeEdit.waitFor({ timeout: 5000 });
+    await this.locators.envelopeEdit.waitFor({ timeout: 10000 });
     await this.locators.envelopeEdit.click();
     await this.locators.AddEditEnvelopeTitle.isVisible();
    try {
   let deleteCount = 0;
 
-  while (deleteCount < 5) {
-    await this.locators.removeEnvelope.waitFor({ timeout: 10000 });
+  while (deleteCount < 3) {
+    await this.locators.removeEnvelope.waitFor({ timeout: 15000 });
     const isEnvelopeVisible = await this.locators.removeEnvelope.isVisible();
     if (isEnvelopeVisible) {
       await this.locators.removeEnvelope.first().click();
-      await this.locators.envelopeDeleteCTA.waitFor({ timeout: 5000 });
+      await this.locators.envelopeDeleteCTA.waitFor({ timeout: 10000 });
       await this.locators.envelopeDeleteCTA.click();
       await this.page.waitForTimeout(1000);
       deleteCount++;
@@ -111,7 +111,7 @@ export class webHelper {
   }
 
   async addTransaction(){
-    await this.locators.addTransactionsCTA.waitFor({ timeout: 5000 });
+    await this.locators.addTransactionsCTA.waitFor({ timeout: 10000 });
     await this.locators.addTransactionsCTA.click();
     await this.locators.payeeField.waitFor({ timeout: 5000 });
     await this.locators.payeeField.fill(data.transactionName);

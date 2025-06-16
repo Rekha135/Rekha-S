@@ -85,7 +85,7 @@ Desktop Score: 79%, Mobile Score: 42%
 1. Critical: Elements fail color contrast requirements
 2. Navigation: Links lack discernible text
 3. Used VoiceOver for accessibility navigation
-   - Dropdowns weren’t reachable via keyboard navigation (e.g., selecting envelopes in Transactions).
-   - On the Add/Edit page, after tapping + Add, focus did not move into the input box but jumped to the next element.
+   - Dropdowns wasn't easily accessible via keyboard navigation (e.g., selecting envelopes in Transactions).
+   - On the Add/Edit page, after tapping +Add, focus did not move into the input box but jumped to the next element.
    - When deleting an account or envelope, focus did not shift to the confirmation popup and continued reading the rest of the page.
    - Was unable to pick a date when adding a transaction.
