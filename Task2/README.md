@@ -10,10 +10,10 @@ This project automates 3 key E2E flows of the GoodBudget Web App using **Playwri
 
 ### The Setup
 
-- Clone the project, git clone - https://github.com/Rekha135/Rekha-S.git
+- Clone the project, git clone: https://github.com/Rekha135/Rekha-S.git
 - Open the project in VS Code
-- To install dependencies - npm install
-- install Playwright browsers - npx playwright install
+- To install dependencies: npm install
+- install Playwright browsers: npx playwright install
 
 ### How to run tests
 

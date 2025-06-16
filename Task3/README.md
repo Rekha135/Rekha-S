@@ -2,9 +2,9 @@
 
 
 1. ### Setup
-  - Clone the project, git clone - https://github.com/Rekha135/Rekha-S.git
+  - Clone the project, git clone: https://github.com/Rekha135/Rekha-S.git
   - Open the project in VS Code
-  - To install dependencies - npm install
+  - To install dependencies: npm install
   
 
 2. ### How to run tests

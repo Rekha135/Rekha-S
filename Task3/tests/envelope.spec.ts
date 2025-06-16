@@ -28,7 +28,7 @@ test.describe('Envelopes CRUD via Goodbudget API', () => {
     );
   });
 
-  test('List current REG envelopes', async () => {
+  test('List of current envelopes', async () => {
     const all = (await client.getEnvelopes()) as unknown as RawEnvelope[];
     initialReg = all.filter(e => e.envelopeType === 'ENV_REG');
     console.log(
@@ -38,7 +38,7 @@ test.describe('Envelopes CRUD via Goodbudget API', () => {
     expect(Array.isArray(initialReg)).toBe(true);
   });
 
-  test('Create ➔ should create a new envelope (no timestamp)', async () => {
+  test('Create ➔ should create a new envelope', async () => {
     const newEnv: RawEnvelope = {
       uuid:        '',
       name:        'Test Automation',
