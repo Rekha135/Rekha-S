@@ -20,16 +20,14 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm ci
+        # switch from npm ci to npm install to avoid lockfile mismatch
+        run: npm install
 
       - name: Run Playwright Web Tests
-        # we add the html reporter so that playwright writes out an HTML report
-        run: npx playwright test web.spec.ts \
-               --project="Web - Chromium" \
-               --reporter=html
+        run: |
+          npx playwright test web.spec.ts --project="Web - Chromium" --reporter=html
 
       - name: Upload HTML Test Report
-        # always upload the generated report directory
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
