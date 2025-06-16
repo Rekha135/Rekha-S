@@ -54,7 +54,6 @@
 2. **Account Deletion:** "Save Changes" blocked by premium version (the dialog box for purchasing premium appears intermittently)
 
 **Risk Assessment & Mitigation**
-
 1. Authentication Risk:
     - No ID verification during registration exposes sensitive information (bank linking, CSV export)
     - **Mitigation:** Implement multi-factor authentication
