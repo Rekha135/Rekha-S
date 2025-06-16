@@ -1,30 +1,34 @@
-import { chromium, FullConfig } from '@playwright/test';
-import path from 'path';
+import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { chromium } from 'playwright';
 
-async function globalSetup(config: FullConfig) {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = path.dirname(__filename);
 
+async function main() {
+
+  const GB_USERNAME = 'rekhasetty13@gmail.com';
+  const GB_PASSWORD = 'password2';
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
   const page = await context.newPage();
 
   await page.goto('https://goodbudget.com/login');
 
-  const user = process.env.GB_USERNAME;
-  const pass = process.env.GB_PASSWORD;
-  if (!user || !pass) {
-    throw new Error('Please set GB_USERNAME and GB_PASSWORD environment variables');
-  }
-
-  await page.fill('//input[@id="username"]', 'rekhasetty13@gmail.com');
-  await page.fill('input[name="password"]', 'password2');
-  await page.click('.elementor-button-text');
-  await page.waitForURL('**/household**', { timeout: 30_000 });
+  await page.fill('//input[@id="username"]', GB_USERNAME);
+  await page.fill('//input[@id="password"]', GB_PASSWORD);
+  await page.click('button[type="submit"]');
+  await page.locator('//div[@class="trans-title"]').waitFor({ timeout: 8000 });
 
 
-  const storagePath = path.resolve(__dirname, 'Task3/utils/.auth.json');
+  const storagePath = path.resolve(__dirname, '.auth.json');
   await context.storageState({ path: storagePath });
+  console.log(`Saved auth state to ${storagePath}`);
 
   await browser.close();
 }
 
-export default globalSetup;
+main().catch(err => {
+  console.error('Setup failed:', err);
+  process.exit(1);
+});

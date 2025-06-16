@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "optimizelyEndUserId",
-      "value": "oeu1750044318593r0.306223976625168",
+      "value": "oeu1750051114387r0.7664141125164579",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765596344,
+      "expires": 1765603120,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "%7B%7D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765596344,
+      "expires": 1765603120,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,57 +25,7 @@
       "value": "%7B%7D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765596344,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gid",
-      "value": "GA1.2.437430889.1750044321",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1750130745,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gat",
-      "value": "1",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1750044380,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_gat_UA-11457071-5",
-      "value": "1",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1750044383,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "GBSESS",
-      "value": "1hvim5f7m27g8vkofvdkh0rjib",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1750073143.329409,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ga_1FLKW4RCKP",
-      "value": "GS2.1.s1750044321$o1$g1$t1750044344$j37$l0$h0",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1784604344.305831,
+      "expires": 1765603120,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -85,170 +35,80 @@
       "value": "%5B%5D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750044359,
+      "expires": 1750051135,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1843645650.1750051117",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1750137519,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1750051176,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-11457071-5",
+      "value": "1",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1750051178,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GBSESS",
+      "value": "0jvkope3o7681helvov4i89dmj",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1750079919.125568,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.519149574.1750051117",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1784611120.003142,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_1FLKW4RCKP",
+      "value": "GS2.1.s1750051117$o1$g1$t1750051120$j57$l0$h0",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1784611120.014549,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_vwo_uuid_v2",
-      "value": "D7C331805E0A30BA3B89644D0C90311AE|b96387d6cff57f37c7f6bd2e772f450d",
+      "value": "DFA65C40FA115F22FF8060DFCB76FB95C|3f63c71e14945f3e3aa34db06b409633",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1781666744,
+      "expires": 1781673520,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.2.157089005.1750044321",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1784604345.709029,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "__adroll",
-      "value": "4bf0cdef715686bb39253f5022a526d7-a_1750044346",
-      "domain": ".d.adroll.com",
-      "path": "/",
-      "expires": 1784172346.443862,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "receive-cookie-deprecation",
-      "value": "1",
-      "domain": ".d.adroll.com",
-      "path": "/",
-      "expires": 1784172346.443884,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "receive-cookie-deprecation",
-      "value": "1",
-      "domain": ".adroll.com",
-      "path": "/",
-      "expires": 1784172346.443898,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__adroll_shared",
-      "value": "4bf0cdef715686bb39253f5022a526d7-a_1750044346",
-      "domain": ".adroll.com",
-      "path": "/",
-      "expires": 1784172346.443913,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__adroll_fpc",
-      "value": "96d77188b1cc94a4682658c4e83afc1e-1750044346209",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1781601946,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "__ar_v4",
-      "value": "%7CN2Y5ECZJYNGG3IT3LU2J5J%3A20250616%3A1%7CHMJPMNDJDFARDMTZR4ZFPM%3A20250616%3A1%7CSP25V2DN45CYHMUXUX7TIW%3A20250616%3A1",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1781580346,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ar_debug",
-      "value": "1",
-      "domain": "x.adroll.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "TapAd_TS",
-      "value": "1750044346624",
-      "domain": ".tapad.com",
-      "path": "/",
-      "expires": 1755228347.195945,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "TapAd_DID",
-      "value": "95482067-9d85-4dd3-8d33-516742181eaf",
-      "domain": ".tapad.com",
-      "path": "/",
-      "expires": 1755228347.196127,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "u",
-      "value": "aHR0cHM6Ly9nb29kYnVkZ2V0LmNvbS8%3D",
-      "domain": ".ml314.com",
-      "path": "/",
-      "expires": 1750044361.749032,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "pi",
-      "value": "3653373792674119743",
-      "domain": ".ml314.com",
-      "path": "/",
-      "expires": 1781580346.749092,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "TDID",
-      "value": "1c11e4ea-e0d1-418d-a631-c084a8eb061c",
-      "domain": ".adsrvr.org",
-      "path": "/",
-      "expires": 1781580347.078782,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "TDCPM",
-      "value": "CAESFAoFdGFwYWQSCwiQ_8LH8KOWPhAFGAUgASgCMgsImpTm84aklj4QBTgB",
-      "domain": ".adsrvr.org",
-      "path": "/",
-      "expires": 1781580347.078889,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "TapAd_3WAY_SYNCS",
-      "value": "1!4011",
-      "domain": ".tapad.com",
-      "path": "/",
-      "expires": 1755228347.196214,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
     }
   ],
   "origins": []

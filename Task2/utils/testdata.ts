@@ -1,5 +1,5 @@
 export const data ={
-    email: "rekhaS@gmail.com",
+    email: "abc@eg.com",
     password: "password2",
     emailID: "rekhasetty13@gmail.com",
     accountName: "Savings",
