@@ -20,12 +20,14 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        # switch from npm ci to npm install to avoid lockfile mismatch
         run: npm install
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
 
       - name: Run Playwright Web Tests
-        run: |
-          npx playwright test web.spec.ts --project="Web - Chromium" --reporter=html
+        run: npx playwright test Task2/tests/web.spec.ts --project="Web - Chromium" --reporter=html
 
       - name: Upload HTML Test Report
         uses: actions/upload-artifact@v4
