@@ -5,16 +5,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gb:setup": "ts-node Task3/utils/setup.ts"
+    "gb:setup": "npx tsx Task3/utils/setup.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.53.0",
-    "@types/node": "^24.0.1",
+    "@types/node": "^24.0.3",
     "playwright": "^1.53.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {

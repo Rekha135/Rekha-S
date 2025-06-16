@@ -8,7 +8,7 @@
   
 
 2. ### How to run tests
-- To create session-ID: npx node -r ts-node/register utils/setup.ts
+- To create session-ID: npx tsx Task3/utils/setup.ts
 - To run test: npx playwright test tests/envelope.spec.ts --project=API --workers=1
 
 3. ### Approach & Tech Stack
