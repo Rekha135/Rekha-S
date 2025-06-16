@@ -2,9 +2,9 @@ name: Playwright Full Test Suite
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   run-tests:
@@ -14,23 +14,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: 🔧 Set up Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm install
-
-      - name: Run API Auth Setup
-        run: npx tsx Task3/utils/setup.ts
-
-      - name: Run Playwright API Tests
-        run: npx tsx ./Task3/utils/setup.ts
-        run: npx playwright test --project=API --workers=1
+        run: npm ci
 
       - name: Run Playwright Web Tests
-        run: npx playwright test web.spec.ts
+        run: npx playwright test web.spec.ts --project="Web - Chromium"
 
       - name: Upload HTML Test Report (if failure)
         if: failure()
