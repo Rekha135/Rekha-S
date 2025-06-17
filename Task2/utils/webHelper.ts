@@ -85,6 +85,7 @@ export class webHelper {
   await this.locators.startOnDropDown.selectOption('2');
 
   await this.locators.addCTAInEnvelopes.click();
+   await this.locators.addCTAInEnvelopes.click();
    await this.locators.envelopeName.waitFor({ timeout: 20000 });
   await this.locators.envelopeName.fill(envelopeName); 
   await this.locators.envelopeAmt.click();
