@@ -65,7 +65,7 @@ export class webHelper {
   let deleteCount = 0;
 
   while (deleteCount < 3) {
-   // await this.locators.removeEnvelope.waitFor({ timeout: 20000 });
+    await this.locators.removeEnvelope.waitFor({ timeout: 20000 });
     const isEnvelopeVisible = await this.locators.removeEnvelope.isVisible();
     if (isEnvelopeVisible) {
       await this.locators.removeEnvelope.first().click();
@@ -85,6 +85,7 @@ export class webHelper {
   await this.locators.startOnDropDown.selectOption('2');
 
   await this.locators.addCTAInEnvelopes.click();
+   await this.locators.envelopeName.waitFor({ timeout: 20000 });
   await this.locators.envelopeName.fill(envelopeName); 
   await this.locators.envelopeAmt.click();
   await this.locators.envelopeAmt.fill(data.envelopeAmt);
