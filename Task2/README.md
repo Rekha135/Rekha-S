@@ -21,7 +21,7 @@ This project automates 3 key E2E flows of the GoodBudget Web App using **Playwri
 - Run tests specific execution: npx playwright test -g "LogIn and add account"
 - Run on Chromium only: npm run test:chromium
 - To generate report: npx playwright show-report
-- Docker execution cmd: docker run --rm -it my-playwright-project npx playwright test tests/web.spec.ts
+- Docker execution cmd: docker run --rm -it my-playwright-project npx playwright test tests/web.spec.ts --workers=1 --reporter=html --output=./playwright-report
 
 ### Tech Stack Approach
 
