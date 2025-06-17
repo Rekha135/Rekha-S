@@ -64,7 +64,7 @@ export class webHelper {
    try {
   let deleteCount = 0;
 
-  while (deleteCount < 5) {
+  while (deleteCount < 6) {
     await this.locators.addCTAInEnvelopes.waitFor({ timeout: 20000 });
     const isEnvelopeVisible = await this.locators.removeEnvelope.isVisible();
     if (isEnvelopeVisible) {
@@ -97,9 +97,6 @@ export class webHelper {
 
   await this.locators.noThanksCTA.click();
   await this.locators.accountsTab.waitFor({ timeout: 8000 });
-
-  // const actualEnvelopeName = await this.locators.addedEnvelopeName.first().textContent();
-  // await expect(actualEnvelopeName).toContain(name);
 } 
 
   async fillEnvelope(){
