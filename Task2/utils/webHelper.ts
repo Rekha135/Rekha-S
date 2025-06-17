@@ -64,7 +64,7 @@ export class webHelper {
    try {
   let deleteCount = 0;
 
-  while (deleteCount < 3) {
+  while (deleteCount < 5) {
     await this.locators.removeEnvelope.waitFor({ timeout: 20000 });
     const isEnvelopeVisible = await this.locators.removeEnvelope.isVisible();
     if (isEnvelopeVisible) {
