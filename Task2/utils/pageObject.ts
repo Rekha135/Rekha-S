@@ -23,7 +23,7 @@ export function pageObjects(page: Page) {
     envelopeEdit: page.locator('a[href="https://goodbudget.com/envelope/edit"]'),
     AddEditEnvelopeTitle: page.locator('//h1[normalize-space()="Add / Edit Envelopes"]'),
     removeEnvelope: page.locator('(//i[@class="icon-remove-sign"])[1]'),
-    dropDownForEnvelope: page.getByRole('link', { name: 'Monthly (Primary)' }),
+    dropDownForEnvelope: page.locator('#period-selector'),
     monthlyFromDropdon: page.locator('//a[normalize-space()="Monthly"]'),
     startOnDropDown: page.locator('#period-extra-MON'),
     firstOfEveryMonth: page.locator('option[value="1"]'),
