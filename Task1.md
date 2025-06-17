@@ -2,38 +2,38 @@
 
 **Charter 1: User sign-up & Login**
 - Priority: High - functionality required to access the app
-- Findings:
+**Findings:**
 - Successfully sign-up and login
 - Welcome Email is sent to registered mail and help login mail is sent to mailID for reset password
 - No Specification at Sign up (For username and Password field for error)
 
 **Charter 2: Adding, Editing & Deleting account**
 - Priority: High - Important for adding funds to envelopes
-- Findings:
+**Findings:**
 - Able to add one saving account and two Debt accounts for free
 - Added accounts can be seen in accounts tab in home screen with transaction details
 
 **Charter 3: Explore Envelopes by Adding, Editing and deleting**
 - Priority: High - Core functionality of the application
-- Findings:
+**Findings:**
 - Able to create new Envelope categories
 - Envelopes can be filled with Add/Set
 
 **Charter 4: Add transaction**
 - Priority: High - Critical for budget tracking
-- Findings:
+**Findings:**
 - Can add income and expenses
 - Visually can see all the transactions
 
 **Charter 5: Reports Functionality**
 - Priority: Medium
-- Findings:
+**Findings:**
 - Data in the graph reports reflects the transactions and balances.
 - Changes in transactions are reflected
 
 **Charter 6: Verify My Household**
 - Priority: Medium
-- Findings:
+**Findings:**
 - Able to see the account details
 
 **Identified Bugs**

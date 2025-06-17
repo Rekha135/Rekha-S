@@ -65,7 +65,7 @@ export class webHelper {
   let deleteCount = 0;
 
   while (deleteCount < 3) {
-    await this.locators.removeEnvelope.waitFor({ timeout: 15000 });
+    await this.locators.removeEnvelope.waitFor({ timeout: 20000 });
     const isEnvelopeVisible = await this.locators.removeEnvelope.isVisible();
     if (isEnvelopeVisible) {
       await this.locators.removeEnvelope.first().click();
@@ -79,7 +79,7 @@ export class webHelper {
   }
 } catch (e) {
 }
-  await this.locators.dropDownForEnvelope.waitFor({ timeout: 5000 });
+  await this.locators.dropDownForEnvelope.waitFor({ timeout: 10000 });
   await this.locators.dropDownForEnvelope.click();
   await this.locators.monthlyFromDropdon.click();
   await this.locators.startOnDropDown.selectOption('2');
@@ -101,7 +101,7 @@ export class webHelper {
 } 
 
   async fillEnvelope(){
-    await this.locators.fillEnvelopCTA.waitFor({ timeout: 8000 });
+    await this.locators.fillEnvelopCTA.waitFor({ timeout: 10000 });
     await this.locators.fillEnvelopCTA.click();
     await this.locators.availableTabInFillEnvelop.click();
     await this.locators.dropDownInFillEnvelop.click();

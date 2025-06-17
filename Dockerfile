@@ -1,14 +1,19 @@
-# Use the official Playwright base image with dependencies
 FROM mcr.microsoft.com/playwright:v1.53.0-jammy
 
-# Set working directory
 WORKDIR /app
 
-# Copy everything to container
-COPY . .
+RUN apt-get update \
+ && apt-get install -y git \
+ && rm -rf /var/lib/apt/lists/*
 
-# Install dependencies
+COPY package.json package-lock.json ./
 RUN npm ci
 
-# Run tests
-CMD ["npx", "playwright", "test"]
+COPY . .
+
+# clean old results
+RUN rm -rf playwright-report test-results
+
+VOLUME [ "/app/playwright-report" ]
+
+CMD ["npx", "playwright", "test", "--workers=1", "--reporter=html", "--output=./playwright-report"]
