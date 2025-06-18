@@ -18,7 +18,7 @@ test('LogIn and add account', async () => {
 test.describe('sanity', () => {
 test('add, delete and fill Envelopes', async () => {
   await func.loginUser(data.email, data.password);
-  await func.addEnvelope(data.envelopeName);
+  await func.addEnvelope();
   await func.fillEnvelope();
 });
 });

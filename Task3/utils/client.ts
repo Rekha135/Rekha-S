@@ -1,4 +1,3 @@
-// Task3/utils/goodbudgetClient.ts
 import { APIRequestContext, APIResponse } from '@playwright/test';
 
 export interface RawEnvelope {
@@ -59,9 +58,9 @@ export class GoodbudgetClient {
 
     const resp = await this.request.post(endpoint, {
       headers: {
-        'Content-Type':       'application/x-www-form-urlencoded; charset=UTF-8',
-        'Accept':             'application/json, text/javascript, */*; q=0.01',
-        'X-Requested-With':   'XMLHttpRequest',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'Accept':   'application/json, text/javascript, */*; q=0.01',
+        'X-Requested-With': 'XMLHttpRequest',
       },
       data: body
     });

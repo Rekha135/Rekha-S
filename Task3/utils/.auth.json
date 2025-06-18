@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "optimizelyEndUserId",
-      "value": "oeu1750255188552r0.2296046244312493",
+      "value": "oeu1750278415431r0.11593647592033451",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765807195,
+      "expires": 1765830422,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "%7B%7D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765807195,
+      "expires": 1765830422,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,7 +25,7 @@
       "value": "%7B%7D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1765807195,
+      "expires": 1765830422,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -35,17 +35,17 @@
       "value": "%5B%5D",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750255210,
+      "expires": 1750278437,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_gid",
-      "value": "GA1.2.1109073722.1750255191",
+      "value": "GA1.2.1006536017.1750278418",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750341595,
+      "expires": 1750364821,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -55,7 +55,7 @@
       "value": "1",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750255251,
+      "expires": 1750278477,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -65,47 +65,47 @@
       "value": "1",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750255253,
+      "expires": 1750278479,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "GBSESS",
-      "value": "g3bfdt9p8mnvd2cuebtmi8jqfa",
+      "value": "djddsm0uo0r1moh8ovakdepduc",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1750283994.25653,
+      "expires": 1750307220.845553,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "_ga_1FLKW4RCKP",
-      "value": "GS2.1.s1750255191$o1$g1$t1750255195$j56$l0$h0",
+      "name": "_ga",
+      "value": "GA1.1.1356060091.1750278418",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1784815195.159682,
+      "expires": 1784838421.829244,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_1FLKW4RCKP",
+      "value": "GS2.1.s1750278418$o1$g1$t1750278421$j57$l0$h0",
+      "domain": ".goodbudget.com",
+      "path": "/",
+      "expires": 1784838421.840658,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_vwo_uuid_v2",
-      "value": "DB65F88CCA693C46AD62AB511BE8D0AFF|ce14f7c4b372d177921ea4e12b0ded73",
+      "value": "D3017C43C03E07C43BCB21430955A921F|720bf898a19927b8b6abaf4361320096",
       "domain": ".goodbudget.com",
       "path": "/",
-      "expires": 1781877595,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.2.663012484.1750255191",
-      "domain": ".goodbudget.com",
-      "path": "/",
-      "expires": 1784815195.810026,
+      "expires": 1781900821,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"

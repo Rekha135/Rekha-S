@@ -1,4 +1,3 @@
-// tests/envelopes.spec.ts
 import { test, expect } from '@playwright/test';
 import { GoodbudgetClient } from '../utils/client';
 

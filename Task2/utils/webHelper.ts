@@ -57,7 +57,7 @@ export class webHelper {
     await this.locators.login.isVisible();
   }
 
-  async addEnvelope(envelopeName: string){
+  async addEnvelope(){
     await this.locators.envelopeEdit.waitFor({ timeout: 10000 });
     await this.locators.envelopeEdit.click();
     await this.locators.AddEditEnvelopeTitle.isVisible();
