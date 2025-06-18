@@ -86,7 +86,8 @@ export class webHelper {
   await this.locators.addCTAInEnvelopes.click();
    await this.locators.addCTAInEnvelopes.click();
    await this.locators.envelopeName.waitFor({ timeout: 20000 });
-  await this.locators.envelopeName.fill(envelopeName); 
+  const randomName = webHelper.randomText(4);
+  await this.locators.envelopeName.fill(randomName); 
   await this.locators.envelopeAmt.click();
   await this.locators.envelopeAmt.fill(data.envelopeAmt);
   await this.locators.saveEnvelopeCTA.click();
@@ -144,5 +145,15 @@ export class webHelper {
     await this.locators.spendingByMonth.click();
     await this.locators.spendingByMonthTitle.isVisible();
     await this.locators.spendingVsBudgetTitle.isVisible();
+  }
+
+  static randomText(length: number): string {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+      const idx = Math.floor(Math.random() * chars.length);
+      result += chars.charAt(idx);
+    }
+    return result;
   }
 }

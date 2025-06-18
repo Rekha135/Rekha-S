@@ -55,11 +55,10 @@ export class GoodbudgetClient {
     params: URLSearchParams
   ): Promise<APIResponse> {
     const body = params.toString();
-    console.log(`▶ POST ${endpoint} body:\n   ${decodeURIComponent(body)}`);
+    console.log(`POST ${endpoint} body:\n   ${decodeURIComponent(body)}`);
 
     const resp = await this.request.post(endpoint, {
       headers: {
-        // match the UI exactly:
         'Content-Type':       'application/x-www-form-urlencoded; charset=UTF-8',
         'Accept':             'application/json, text/javascript, */*; q=0.01',
         'X-Requested-With':   'XMLHttpRequest',
